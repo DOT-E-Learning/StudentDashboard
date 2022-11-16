@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { cardStyles } from "./ReusableStyles";
 export default function Footer() {
   return (
     <Nav>
@@ -48,11 +49,11 @@ export default function Footer() {
   );
 }
 const Nav = styled.nav`
+${cardStyles}
   margin-top: 30px;
   border-radius: 10px;
   .main-footer {
     color: orange;
-    background-color: white;
     padding: 1em;
     position: relative;
     width: 100%;
