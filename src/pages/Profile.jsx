@@ -4,6 +4,7 @@ import { Card, Button, TextInput, InputBase } from '@mantine/core';
  import axios from 'axios';
  import { useState } from 'react';
  import { Link , useLocation} from "react-router-dom";
+ 
 
 export default function Profile() {
   const location = useLocation()
@@ -25,7 +26,7 @@ export default function Profile() {
     await axios({
       method:"put",
       url:`http://localhost:8000/api/update/${studentId}`,
-      headers:{
+        headers:{
             "Content-type" : "application/json",
         },
       data : 
@@ -46,9 +47,10 @@ export default function Profile() {
 
 
 
-
+// render(); {
+//    const {level_of_study, field_of_study, phone_number, address} =this.data
   return (
-    
+   
     <section style={{ marginLeft: '19vw',marginRight: '1vw', marginTop: '1vw' }}>
       <Profiles />
        <br />
@@ -62,6 +64,7 @@ export default function Profile() {
         <option value="react">Degree</option>
         <option value="react">Diploma</option>
         <option value="svelte">Masters</option>
+        {/* value={level_of_study} */}
       </InputBase>
         <TextInput onSubmit={handleUpdateStudent}
         ref={inputfield_of_study}
