@@ -4,9 +4,10 @@ import { Card, Button, TextInput, InputBase } from '@mantine/core';
 
 export default function Profile() {
   return (
-    <section style={{ marginLeft: '19vw',marginRight: '1vw', marginTop: '1vw' }}>
+    <section style={{ marginLeft: '22vw',marginRight: '4vw' }}>
+      <br /><br />
       <Profiles />
-       <br />
+       <br /><br />
        <Card shadow="xl" p="xl" radius="xl" withBorder>
         <h3>Edit Profile</h3>
         <br />
