@@ -39,14 +39,14 @@ export default function Dashboard() {
             <Analytics />
             <FAQ />
           </div>
+          <div className='row__one'>
+          <Earnings />
+          <Total />
+          </div>
           <div className='row__two'>
             <RecentActivities />
             <MyNotes />
             <NoticeBoard />
-          </div>
-          <div className='row__one'>
-          <Earnings />
-          <Total />
           </div>
         </div>
         <Footer />
