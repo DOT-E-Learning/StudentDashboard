@@ -8,6 +8,9 @@ import RecentActivities from './RecentActivities';
 import scrollreveal from 'scrollreveal';
 import NoticeBoard from './NoticeBoard';
 import MyNotes from './MyNotes';
+import Earnings from './Ongoing';
+import Total from './Total';
+import Transfers from './Transfers';
 export default function Dashboard() {
   useEffect(() => {
     const sr = scrollreveal({
@@ -40,6 +43,10 @@ export default function Dashboard() {
             <RecentActivities />
             <MyNotes />
             <NoticeBoard />
+          </div>
+          <div className='row__one'>
+          <Earnings />
+          <Total />
           </div>
         </div>
         <Footer />

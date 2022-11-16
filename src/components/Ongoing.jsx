@@ -162,10 +162,10 @@ export default function Earnings() {
     <Section>
       <div className="top">
         <div className="info">
-          <h5>This month earnings</h5>
-          <h1>$682.5</h1>
+          <h5>Ongoing Courses Activity</h5>
+          <h1>3</h1>
           <div className="growth">
-            <span>+2.45%</span>
+            <span>25% completed</span>
           </div>
         </div>
       </div>
@@ -183,7 +183,7 @@ export default function Earnings() {
               animationDuration={2000}
               type="monotone"
               dataKey="data"
-              stroke="#ffc107"
+              stroke="orange"
               fill="#8068233e"
               strokeWidth={4}
             />
@@ -215,13 +215,13 @@ const Section = styled.section`
         border-radius: 1rem;
         transition: 0.3s ease-in-out;
         &:hover {
-          background-color: #ffc107;
+          background-color: orange;
           span {
             color: black;
           }
         }
         span {
-          color: #ffc107;
+          color: orange;
         }
       }
     }
