@@ -63,7 +63,6 @@ export default function Sidebar() {
           </div>
           <div className="links">
             <ul>
-              <hr />
               <li
                 className={currentLink === 1 ? "active" : "none"}
                 onClick={() => setCurrentLink(1)}
@@ -74,31 +73,12 @@ export default function Sidebar() {
                 </a>
               </li>
               <li
-                className={currentLink === 2 ? "active" : "none"}
-                onClick={() => setCurrentLink(2)}
-              >
-                <a href="/assignment">
-                  <RiDashboard2Fill />
-                  <span> My Assignment</span>
-                </a>
-              </li>
-              <li
-                className={currentLink === 3 ? "active" : "none"}
-                onClick={() => setCurrentLink(3)}
-              >
-                <a href="/quiz">
-                  <FaAddressCard />
-                  <span> My Quiz</span>
-                </a>
-              </li>
-              <hr />
-              <li
                 className={currentLink === 4 ? "active" : "none"}
                 onClick={() => setCurrentLink(4)}
               >
-                <a href="#">
+                <a href="/course">
                   <GiTwirlCenter />
-                  <span> Courses</span>
+                  <span>My Courses</span>
                 </a>
               </li>
               <li
@@ -110,7 +90,6 @@ export default function Sidebar() {
                   <span> Explore</span>
                 </a>
               </li>
-              <hr />
               <li
                 className={currentLink === 6 ? "active" : "none"}
                 onClick={() => setCurrentLink(6)}
@@ -143,31 +122,12 @@ export default function Sidebar() {
               </a>
             </li>
             <li
-              className={currentLink === 2 ? "active" : "none"}
-              onClick={() => setCurrentLink(2)}
-            >
-              <a href="/assignment">
-                <RiDashboard2Fill />
-                <span> My Assignment</span>
-              </a>
-            </li>
-            <li
-              className={currentLink === 3 ? "active" : "none"}
-              onClick={() => setCurrentLink(3)}
-            >
-              <a href="/quiz">
-                <FaAddressCard />
-                <span> My Quiz</span>
-              </a>
-            </li>
-            <hr />
-            <li
               className={currentLink === 4 ? "active" : "none"}
               onClick={() => setCurrentLink(4)}
             >
               <a href="/course">
                 <GiTwirlCenter />
-                <span> Courses</span>
+                <span>My Courses</span>
               </a>
             </li>
             <li
@@ -179,7 +139,7 @@ export default function Sidebar() {
                 <span>Explore </span>
               </a>
             </li>
-            <hr />
+            {/* <hr /> */}
             <li
               className={currentLink === 6 ? "active" : "none"}
               onClick={() => setCurrentLink(6)}
