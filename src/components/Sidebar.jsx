@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { MdSpaceDashboard } from "react-icons/md";
-import { RiDashboard2Fill } from "react-icons/ri";
-import { FaAddressCard, FaTaxi } from "react-icons/fa";
 import { GiTwirlCenter } from "react-icons/gi";
 import { BsFillChatTextFill } from "react-icons/bs";
 import { IoSettings } from "react-icons/io5";
