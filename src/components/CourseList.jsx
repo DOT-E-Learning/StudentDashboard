@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import courseImg from '../assets/courseImg.png';
+import courseImg from '../assets/courseImg2.jpg';
 import { cardStyles } from './ReusableStyles';
 
 export default function CourseList() {
@@ -19,7 +19,7 @@ export default function CourseList() {
             <div className='transaction'>
               <div className='transaction__title'>
                 <div className='transaction__title__image'>
-                  <img src={transaction.image} alt='' />
+                  <img src={transaction.image} height="80px" alt='' />
                 </div>
                 <div className='title'>
                   <h2>{transaction.name}</h2>

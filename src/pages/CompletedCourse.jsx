@@ -1,8 +1,18 @@
-import { Button, Card, Grid, Image, RingProgress, Text } from '@mantine/core';
+import {
+  Button,
+  Card,
+  Center,
+  Grid,
+  Image,
+  RingProgress,
+  Text,
+  ThemeIcon,
+} from '@mantine/core';
 import React from 'react';
 import Navbar from '../components/Navbar';
+import { IconCheck } from '@tabler/icons';
 
-function Course() {
+export default function CompletedCourse() {
   return (
     <div style={{ marginLeft: '20vw', marginRight: '2vw' }}>
       <br />
@@ -11,7 +21,7 @@ function Course() {
       <Button
         component='a'
         rel='noopener noreferrer'
-        href='#'
+        href='/course'
         color='orange'
         radius='md'
         style={{ marginRight: '10px' }}
@@ -21,7 +31,7 @@ function Course() {
       <Button
         component='a'
         rel='noopener noreferrer'
-        href='/courseCompleted'
+        href='#'
         color='dark'
         radius='md'
       >
@@ -33,7 +43,8 @@ function Course() {
         shadow='xl'
         p='xl'
         component='a'
-        href='/courseView'
+        href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+        target='_blank'
       >
         <Grid>
           <Grid.Col span={3}>
@@ -60,11 +71,18 @@ function Course() {
           </Grid.Col>
           <Grid.Col span={2}>
             <RingProgress
-              sections={[{ value: 40, color: 'orange' }]}
+              sections={[{ value: 100, color: 'orange' }]}
               label={
-                <Text color='orange' weight={700} align='center' size='xl'>
-                  40%
-                </Text>
+                <Center>
+                  <ThemeIcon
+                    color='orange'
+                    variant='light'
+                    radius='xl'
+                    size='xl'
+                  >
+                    <IconCheck size={22} />
+                  </ThemeIcon>
+                </Center>
               }
             />
           </Grid.Col>
@@ -76,7 +94,8 @@ function Course() {
         shadow='xl'
         p='xl'
         component='a'
-        href='/courseView'
+        href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+        target='_blank'
       >
         <Grid>
           <Grid.Col span={3}>
@@ -103,11 +122,18 @@ function Course() {
           </Grid.Col>
           <Grid.Col span={2}>
             <RingProgress
-              sections={[{ value: 40, color: 'orange' }]}
+              sections={[{ value: 100, color: 'orange' }]}
               label={
-                <Text color='orange' weight={700} align='center' size='xl'>
-                  40%
-                </Text>
+                <Center>
+                  <ThemeIcon
+                    color='orange'
+                    variant='light'
+                    radius='xl'
+                    size='xl'
+                  >
+                    <IconCheck size={22} />
+                  </ThemeIcon>
+                </Center>
               }
             />
           </Grid.Col>
@@ -119,7 +145,8 @@ function Course() {
         shadow='xl'
         p='xl'
         component='a'
-        href='/courseView'
+        href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+        target='_blank'
       >
         <Grid>
           <Grid.Col span={3}>
@@ -146,11 +173,18 @@ function Course() {
           </Grid.Col>
           <Grid.Col span={2}>
             <RingProgress
-              sections={[{ value: 40, color: 'orange' }]}
+              sections={[{ value: 100, color: 'orange' }]}
               label={
-                <Text color='orange' weight={700} align='center' size='xl'>
-                  40%
-                </Text>
+                <Center>
+                  <ThemeIcon
+                    color='orange'
+                    variant='light'
+                    radius='xl'
+                    size='xl'
+                  >
+                    <IconCheck size={22} />
+                  </ThemeIcon>
+                </Center>
               }
             />
           </Grid.Col>
@@ -163,5 +197,3 @@ function Course() {
     </div>
   );
 }
-
-export default Course;

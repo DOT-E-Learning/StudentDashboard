@@ -9,9 +9,9 @@ export default function Profile() {
       <Profiles />
        <br /><br />
        <Card shadow="xl" p="xl" radius="xl" withBorder>
-        <h3>Edit Profile</h3>
+        <h2>Edit Profile</h2>
         <br />
-        <InputBase label="Level of Study" component="select" mt="md">
+        <InputBase label="Field of Study" component="select" mt="md">
         <option value="react">Degree</option>
         <option value="react">Diploma</option>
         <option value="svelte">Masters</option>

@@ -1,22 +1,9 @@
-// import React from 'react';
-// import Navbar from '../components/Navbar';
-
-// export default function CourseDetail() {
-//   return (
-//     <div style={{ marginLeft: '20vw', marginRight: '2vw' }}>
-//         <br />
-//       <Navbar />
-//       <br />
-
-//     </div>
-//   );
-// }
-
 import React from 'react';
 import styled from 'styled-components';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import avatarImage from '../assets/avatarImage.jpeg';
 import { cardStyles } from '../components/ReusableStyles';
+import { Rating } from '@mantine/core';
 
 export default function CourseDetail() {
   const transactions = [
@@ -44,7 +31,9 @@ export default function CourseDetail() {
     <br /><br />
     <Section style={{ marginLeft: '20vw', marginRight: '2vw' }}>
       <h2>Frontend Development Detailed Course Description</h2>
-       <img src='./DotLogo2.png' width='920px' height='500px' />
+      <br />
+       <img src='./courseImg2.jpg' width='920px' height='400px' />
+       <br />
       <div className='title'>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus sapien in magna gravida, non ullamcorper ante pretium. Nulla massa purus, posuere in felis vel, tristique sagittis neque. Integer pulvinar sapien vel turpis eleifend tincidunt. Curabitur fermentum at erat at tempor. Sed eget justo nisi. Duis elementum sodales erat, nec interdum dui rutrum in. Nunc porttitor non arcu ac scelerisque. Quisque suscipit leo ante. Curabitur pharetra at tellus eu mollis. Ut ullamcorper molestie purus et interdum. Vivamus dapibus fermentum ligula. Donec fermentum fringilla risus.
           <br /><br />
@@ -74,10 +63,16 @@ export default function CourseDetail() {
           );
         })}
       </div>
-      <a className='view' href='#'>
+      <br />
+      <div className='title'>
+        <h4>Course Rating</h4>
+        <br />
+        <Rating defaultValue={2} color="orange" count={5} />
+      <a className='view' href='/courseView'>
         Enroll Now <HiArrowNarrowRight />
       </a>
-    </Section>
+      </div>
+    </Section> <br /><br /><br />
     </>
   );
 }
@@ -88,7 +83,7 @@ const Section = styled.section`
   flex-direction: column;
   gap: 1rem;
   .title {
-    h2 {
+    h2,h4 {
       color: Orange;
       font-family: 'Permanent Marker', cursive;
       letter-spacing: 0.3rem;
