@@ -38,7 +38,7 @@ function Course() {
         <Grid>
           <Grid.Col span={3}>
             <Card.Section>
-              <Image src='courseImg2.jpg' height={160} alt='Frontend Course' />
+              <Image src='Students-laughing.jpg' height={160} alt='Frontend Course' />
             </Card.Section>
           </Grid.Col>
           <Grid.Col span={1}></Grid.Col>
@@ -49,21 +49,19 @@ function Course() {
               size='xl'
               mt='md'
             >
-              Frontend Development Course
+              Scaleup Training Course
             </Text>
 
             <Text mt='xs' color='dimmed' size='sm'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at
-              ante et arcu sodales sagittis. Orci varius natoque penatibus et
-              magnis dis parturient montes, nascetur ridiculus mus.
+           This course is designed to train employees for increased productivity, higher engagement in social services. Dedicating 10 hours a week is recommended to finish this course
             </Text>
           </Grid.Col>
           <Grid.Col span={2}>
             <RingProgress
-              sections={[{ value: 40, color: 'orange' }]}
+              sections={[{ value: 1, color: 'orange' }]}
               label={
                 <Text color='orange' weight={700} align='center' size='xl'>
-                  40%
+                  1%
                 </Text>
               }
             />
@@ -81,7 +79,7 @@ function Course() {
         <Grid>
           <Grid.Col span={3}>
             <Card.Section>
-              <Image src='courseImg2.jpg' height={160} alt='Frontend Course' />
+              <Image src='course3img.jpg' height={160} alt='Frontend Course' />
             </Card.Section>
           </Grid.Col>
           <Grid.Col span={1}></Grid.Col>
@@ -92,21 +90,20 @@ function Course() {
               size='xl'
               mt='md'
             >
-              Frontend Development Course
+             Women Empowerment Course
             </Text>
 
             <Text mt='xs' color='dimmed' size='sm'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at
-              ante et arcu sodales sagittis. Orci varius natoque penatibus et
-              magnis dis parturient montes, nascetur ridiculus mus.
+            Empowering women is essential to the health and social development of families, communities and countries.
+            This course is designed to inspire and motivate women from various working class of the community to make their community a better place
             </Text>
           </Grid.Col>
           <Grid.Col span={2}>
             <RingProgress
-              sections={[{ value: 40, color: 'orange' }]}
+              sections={[{ value: 60, color: 'orange' }]}
               label={
                 <Text color='orange' weight={700} align='center' size='xl'>
-                  40%
+                  60%
                 </Text>
               }
             />
@@ -124,7 +121,7 @@ function Course() {
         <Grid>
           <Grid.Col span={3}>
             <Card.Section>
-              <Image src='courseImg2.jpg' height={160} alt='Frontend Course' />
+              <Image src='women.png' height={160} alt='Frontend Course' />
             </Card.Section>
           </Grid.Col>
           <Grid.Col span={1}></Grid.Col>
@@ -135,21 +132,19 @@ function Course() {
               size='xl'
               mt='md'
             >
-              Frontend Development Course
+              Entrepreneurship Training Course
             </Text>
 
             <Text mt='xs' color='dimmed' size='sm'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at
-              ante et arcu sodales sagittis. Orci varius natoque penatibus et
-              magnis dis parturient montes, nascetur ridiculus mus.
+Entrepreneurship enables new markets to develop in the form of goods, services, and technology. This course paves a way for generating wealth through the lessons provided
             </Text>
           </Grid.Col>
           <Grid.Col span={2}>
             <RingProgress
-              sections={[{ value: 40, color: 'orange' }]}
+              sections={[{ value: 80, color: 'orange' }]}
               label={
                 <Text color='orange' weight={700} align='center' size='xl'>
-                  40%
+                  80%
                 </Text>
               }
             />

@@ -49,7 +49,7 @@ export default function CompletedCourse() {
         <Grid>
           <Grid.Col span={3}>
             <Card.Section>
-              <Image src='courseImg2.jpg' height={160} alt='Frontend Course' />
+              <Image src='enter3.jpg' height={160} alt='Frontend Course' />
             </Card.Section>
           </Grid.Col>
           <Grid.Col span={1}></Grid.Col>
@@ -60,13 +60,12 @@ export default function CompletedCourse() {
               size='xl'
               mt='md'
             >
-              Frontend Development Course
+              ReachUp Training Course
             </Text>
 
             <Text mt='xs' color='dimmed' size='sm'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at
-              ante et arcu sodales sagittis. Orci varius natoque penatibus et
-              magnis dis parturient montes, nascetur ridiculus mus.
+            The programme provides a comprehensive training package for trainers, supervisors and home visitors. 
+            It has been integrated with health, nutrition and empowerment
             </Text>
           </Grid.Col>
           <Grid.Col span={2}>
@@ -100,7 +99,7 @@ export default function CompletedCourse() {
         <Grid>
           <Grid.Col span={3}>
             <Card.Section>
-              <Image src='courseImg2.jpg' height={160} alt='Frontend Course' />
+              <Image src='enter2.jpg' height={160} alt='Frontend Course' />
             </Card.Section>
           </Grid.Col>
           <Grid.Col span={1}></Grid.Col>
@@ -111,13 +110,11 @@ export default function CompletedCourse() {
               size='xl'
               mt='md'
             >
-              Frontend Development Course
+             Startup Training Course
             </Text>
 
             <Text mt='xs' color='dimmed' size='sm'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at
-              ante et arcu sodales sagittis. Orci varius natoque penatibus et
-              magnis dis parturient montes, nascetur ridiculus mus.
+            This course is designed for entrepreneurs and wanna-be entrepreneurs and gives them the confidence they need to succeed and to grow their businesses.
             </Text>
           </Grid.Col>
           <Grid.Col span={2}>
@@ -151,7 +148,7 @@ export default function CompletedCourse() {
         <Grid>
           <Grid.Col span={3}>
             <Card.Section>
-              <Image src='courseImg2.jpg' height={160} alt='Frontend Course' />
+              <Image src='IT2.jpg' height={160} alt='Frontend Course' />
             </Card.Section>
           </Grid.Col>
           <Grid.Col span={1}></Grid.Col>
@@ -162,13 +159,12 @@ export default function CompletedCourse() {
               size='xl'
               mt='md'
             >
-              Frontend Development Course
+              IT Training Course
             </Text>
 
             <Text mt='xs' color='dimmed' size='sm'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at
-              ante et arcu sodales sagittis. Orci varius natoque penatibus et
-              magnis dis parturient montes, nascetur ridiculus mus.
+            With online IT training courses and certifications, the classroom comes to you.
+            This course is begineer friendly and is designed to employ you with job-ready skills.
             </Text>
           </Grid.Col>
           <Grid.Col span={2}>

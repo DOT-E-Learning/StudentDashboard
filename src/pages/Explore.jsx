@@ -2,7 +2,11 @@ import { Grid } from '@mantine/core';
 import React from 'react';
 import Navbar from '../components/Navbar';
 import CourseList from '../components/CourseList';
-
+import CourseListTwo from '../components/CourseListTwo';
+import CourseListThree from '../components/CourseListThree';
+import CourseListFour from '../components/CourseListFour';
+import CourseListFive from '../components/CourseListFive';
+import CourseListSix from '../components/CourseListSix';
 function Explore() {
   return (
     <section>
@@ -15,22 +19,22 @@ function Explore() {
             <CourseList  />
           </Grid.Col>
           <Grid.Col span={4}>
-          <CourseList  />
+          <CourseListTwo  />
           </Grid.Col>
           <Grid.Col span={4}>
-          <CourseList  />
+          <CourseListThree  />
           </Grid.Col>
         </Grid>
         <br /><br />
         <Grid>
           <Grid.Col span={4}>
-            <CourseList  />
+            <CourseListFour  />
           </Grid.Col>
           <Grid.Col span={4}>
-          <CourseList  />
+          <CourseListFive  />
           </Grid.Col>
           <Grid.Col span={4}>
-          <CourseList  />
+          <CourseListSix  />
           </Grid.Col>
         </Grid>
         <br /><br /><br />

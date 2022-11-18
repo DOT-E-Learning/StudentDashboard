@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-import courseImg from '../assets/courseImg2.jpg';
+import courseImg from '../assets/courseimgg.jpg';
 import { cardStyles } from './ReusableStyles';
 
 export default function CourseList() {
   const transactions = [
     {
-      image: courseImg,
-      name: 'Frontend Development',
+      imageOne: courseImg,
+      nameOne: 'ReachUp Training',
     },
   ];
   return (
@@ -19,10 +19,10 @@ export default function CourseList() {
             <div className='transaction'>
               <div className='transaction__title'>
                 <div className='transaction__title__image'>
-                  <img src={transaction.image} height="80px" alt='' />
+                  <img src={transaction.imageOne} height="80px" alt='' />
                 </div>
                 <div className='title'>
-                  <h2>{transaction.name}</h2>
+                  <h2>{transaction.nameOne}</h2>
                 </div>
               </div>
             </div>
@@ -65,8 +65,8 @@ const Section = styled.section`
         gap: 1rem;
         &__image {
           img {
-            height: 250px;
-            width: 250px
+            height: 200px;
+            width: 310px
             // border-radius: 3rem;
           }
         }

@@ -9,39 +9,29 @@ export default function CourseDetail() {
   const transactions = [
     {
       image: avatarImage,
-      name: 'Abebe Kebede',
-      time: 'Expertise with X',
-      amount: '1 Hour Lecture',
+      name: 'Instructor Daniel',
+      time: 'Certified Life-Skill Trainer',
+      amount: '1 month for completion',
     },
-    {
-      image: avatarImage,
-      name: 'Abebe Kebede',
-      time: 'xpertise with Y',
-      amount: '2 Hour Lecture',
-    },
-    {
-      image: avatarImage,
-      name: 'Abebe Kebede',
-      time: 'xpertise with Z',
-      amount: '3 Hour Lecture',
-    },
+    
   ];
   return (
     <>
     <br /><br />
     <Section style={{ marginLeft: '20vw', marginRight: '2vw' }}>
-      <h2>Frontend Development Detailed Course Description</h2>
+      <h2>ReachUp Training Course Description</h2>
       <br />
-       <img src='./courseImg2.jpg' width='920px' height='400px' />
+       <img src='./course3img.jpg' width='800px' height='500px' />
        <br />
       <div className='title'>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus sapien in magna gravida, non ullamcorper ante pretium. Nulla massa purus, posuere in felis vel, tristique sagittis neque. Integer pulvinar sapien vel turpis eleifend tincidunt. Curabitur fermentum at erat at tempor. Sed eget justo nisi. Duis elementum sodales erat, nec interdum dui rutrum in. Nunc porttitor non arcu ac scelerisque. Quisque suscipit leo ante. Curabitur pharetra at tellus eu mollis. Ut ullamcorper molestie purus et interdum. Vivamus dapibus fermentum ligula. Donec fermentum fringilla risus.
+        <p>Reach Up requires well-trained human resources to implement an early childhood parenting programme in a community.
           <br /><br />
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus sapien in magna gravida, non ullamcorper ante pretium. Nulla massa purus, posuere in felis vel, tristique sagittis neque. Integer pulvinar sapien vel turpis eleifend tincidunt. Curabitur fermentum at erat at tempor. Sed eget justo nisi. Duis elementum sodales erat, nec interdum dui rutrum in. Nunc porttitor non arcu ac scelerisque. Quisque suscipit leo ante. Curabitur pharetra at tellus eu mollis. Ut ullamcorper molestie purus et interdum. Vivamus dapibus fermentum ligula. Donec fermentum fringilla risus.
+          To enable interaction and feedback, workshop attendance is usually limited to approximately 15 participants per session. The training workshops are held over a 2-week period, with 38 sessions, lasting up to two hours. The sessions are broken down into four categories. 
+          The videos are used to illustrate methods and activities in the training sessions. Following the workshop training, home visitors are usually accompanied on practice home visits.
         </p>
       </div>
       <div className='title'>
-        <h2>Course Instructors</h2>
+        <h2>Course Instructor</h2>
       </div>
       <div className="transactions">
         {transactions.map((transaction) => {
